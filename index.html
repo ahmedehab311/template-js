@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spcial Project</title>
+    <!-- <link rel="stylesheet" href="css/fontawesome.min.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"rel="stylesheet"/><link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+  </head>
+  <body>
+    <!-- start setting box -->
+    <div class="setting-box">
+      <div class="toggle-setting">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <div class="settins-content">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#88ff00"></li>
+            <li data-color="#0501ff"></li>
+            <li data-color="#a000fd"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>Random Backgrounds</h4>
+        <div class="random-background">
+          <span class="yes active" data-back="yes">yes</span>
+          <span class="no" data-back="no">no</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>Random Backgrounds</h4>
+        <div class="bullet-option">
+          <span class="yes active" data-display="show">yes</span>
+          <span class="no" data-display="hide">no</span>
+        </div>
+      </div>
+      <!-- <div class="option-box">
+        <h4>Scroll Head Option</h4>
+        <div class="scroll-option">
+          <span class="yes active" data-display="show">yes</span>
+          <span class="no" data-display="hide">no</span>
+        </div>
+      </div> -->
+      <button class="reset-options">Reset Options</button>
+    </div>
+    <!-- start nav-bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallary">
+        <div class="tooltip">Gallary</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">TimeLine</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Features</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact</div>
+      </div>
+    </div>
+    <!-- end nav-bullets -->
+    <!-- end setting box -->
+    <!-- start landing page -->
+    <div class="landing-page">
+      <div class="ovarlay"></div>
+      <div class="contanier">
+        <div class="header-area">
+          <div class="logo">Spacial Design</div>
+          <div class="contanier-links">
+            <ul class="links">
+            <li><a href="#" data-section=".about-us">About</a></li>
+            <li><a href="#" data-section=".skills">Skills</a></li>
+            <li><a href="#" data-section=".gallary">Gallary</a></li>
+            <li><a href="#" data-section=".timeline">Timeline</a></li>
+            <li><a href="#" data-section=".features">Features</a></li>
+            <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+            <!-- <li><a href="#" data-section=".contact">Contact</a></li> -->
+          </ul>
+          <button class="toggle-menu ">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+          </div>
+      </div>
+      <div class="introduction-text">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>
+          We are pioneers in manufacturing web pages at the lowest costs and the
+          best quality
+        </p>
+      </div>
+    </div>
+    <!-- end landing page -->
+
+    <!-- start about us -->
+    <div class="contanier">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Reprehenderit alias natus voluptatem blanditiis tempora eum illo
+            repudiandae veritatis iusto aliquam sit mollitia cumque reiciendis
+            maiores, quae nam quos labore even iet?
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="images/aboutUs.webp" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end about us -->
+
+    <!--  start our skills  -->
+    <div class="skills">
+      <div class="contanier">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="10%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JS</div>
+          <div class="skill-progress">
+            <span data-progress="50%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-progress="40%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-progress">
+            <span data-progress="20%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  end our skills  -->
+    <div class="gallary">
+      <div class="contanier">
+        <h2>Our Gallary</h2>
+        <div class="image-box">
+          <img src="images/04.png" alt="image one" />
+          <img src="images/01.jfif" alt="image two" />
+          <img src="images/02.jfif" alt="image three" />
+          <img src="images/03.jfif" alt="image four" />
+          <img src="images/01.jfif" alt="image five" />
+          <img src="images/02.jfif" alt="" />
+          <img src="images/04.png" alt="" />
+          <img src="images/03.jfif" alt="" />
+          <img src="images/01.jfif" alt="" />
+          <img src="images/02.jfif" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- start timeline  -->
+    <div class="timeline">
+      <div class="contanier">
+        <div class="timeline-content">
+          <div class="year">2016</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium minima, architecto atque numquam quod, vitae corporis
+                natus asperiores doloribus quos iure quam eligendi distinctio
+                quidem pariatur
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium minima, architecto atque numquam quod, vitae corporis
+                natus asperiores doloribus quos iure quam eligendi distinctio
+                quidem pariatur
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2018</div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium minima, architecto atque numquam quod, vitae corporis
+                natus asperiores doloribus quos iure quam eligendi distinctio
+                quidem pariatur
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2020</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium minima, architecto atque numquam quod, vitae corporis
+                natus asperiores doloribus quos iure quam eligendi distinctio
+                quidem pariatur
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium minima, architecto atque numquam quod, vitae corporis
+                natus asperiores doloribus quos iure quam eligendi distinctio
+                quidem pariatur
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="contanier">
+        <div class="feat-box">
+          <img src="images/1.webp" alt="" />
+          <h4>Devlopment</h4>
+          <p>we are professional , we will fo anyting for you.</p>
+        </div>
+        <div class="feat-box">
+          <img src="images/2.webp" alt="" />
+          <h4>Devlopment</h4>
+          <p>we are professional , we will fo anyting for you.</p>
+        </div>
+        <div class="feat-box">
+          <img src="images/3.webp" alt="" />
+          <h4>Devlopment</h4>
+          <p>we are professional , we will fo anyting for you.</p>
+        </div>
+        <div class="feat-box">
+          <img src="images/4.webp" alt="" />
+          <h4>Devlopment</h4>
+          <p>we are professional , we will fo anyting for you.</p>
+        </div>
+        <div class="feat-box">
+          <img src="images/5.webp" alt="" />
+          <h4>Devlopment</h4>
+          <p>we are professional , we will fo anyting for you.</p>
+        </div>
+        <div class="feat-box">
+          <img src="images/6.webp" alt="" />
+          <h4>Devlopment</h4>
+          <p>we are professional , we will fo anyting for you.</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- end timeline  -->
+
+    <!-- strart testimonials -->
+    <div class="testimonials">
+      <div class="contanier">
+        <h2>Testimonials</h2>
+        <div class="ts-box">
+          <p>I so happy.</p>
+          <div class="person-info">
+            <img src="https://via.placeholder.com/80/ddd?text=A" alt="" />
+            <h4>Ahmed Ehab</h4>
+            <p>CEO </p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>amazing</p>
+          <div class="person-info">
+            <img src="https://via.placeholder.com/80/eee?text=m" alt="" />
+            <h4>Ahmed Ehab</h4>
+            <p>CEO </p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>awsome!!</p>
+          <div class="person-info">
+            <img src="https://via.placeholder.com/80/aaa?text=o" alt="" />
+            <h4>Ahmed Ehab</h4>
+            <p>CEO </p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- end testimonials -->
+    <!-- start contact-->
+    <div class="contact">
+      <div class="ovarlay"></div>
+     <div class="contanier">
+      <h2>Contact Us</h2>
+      <form action="">
+        <div class="left">
+          <input type="text" placeholder="Your Name" name="Username">
+          <input type="text" placeholder="Your Phone" name="phone">
+          <input type="email" placeholder="Your Email" name="email">
+          <input type="text" placeholder="subject" name="subject">
+        </div>
+        <div class="right">
+<textarea name="" placeholder="Your Message"></textarea>
+<input type="submit" value="Send">
+        </div>
+      </form>
+     </div>
+    </div>
+    <!-- end contact-->
+    <!-- start footer -->
+    <div class="footer">Created With Love By Ahmed Ehab Yasta</div>
+    <!-- end footer -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
